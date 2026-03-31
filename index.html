@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FocusPath | AI-Powered Academic Planner</title>
+    <meta
+      name="description"
+      content="FocusPath is an AI-powered academic planner that helps college students stay ahead, reduce stress, and avoid burnout with smart workload redistribution."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-one" aria-hidden="true"></div>
+    <div class="bg-orb orb-two" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <nav class="nav container" aria-label="Primary navigation">
+        <a class="brand" href="#home">FocusPath</a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#how-it-works">How It Works</a></li>
+          <li><a href="#demo">Demo</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a class="btn btn-sm btn-outline" href="#waitlist">Join Waitlist</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero section container">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Your AI-powered academic planner that helps college students stay ahead without burnout.</p>
+          <h1>Stop drowning in assignments. Let AI plan your academic life.</h1>
+          <p class="lead">
+            FocusPath intelligently redistributes your study workload based on deadlines, subject difficulty, and your schedule
+            so you stay consistent, reduce stress, and avoid burnout.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#waitlist">Start Free</a>
+            <a class="btn btn-secondary" href="#demo">Book a Demo</a>
+          </div>
+          <div class="hero-meta">
+            <span>Free plan available</span>
+            <span>No credit card required</span>
+          </div>
+        </div>
+
+        <div class="dashboard reveal delay-1" aria-label="FocusPath dashboard mockup">
+          <div class="dash-header">
+            <div>
+              <p class="dash-label">Today</p>
+              <h3>Academic Control Center</h3>
+            </div>
+            <span class="pill">AI Active</span>
+          </div>
+
+          <div class="dash-grid">
+            <article class="dash-card">
+              <h4>Upcoming Assignments</h4>
+              <ul>
+                <li>Calculus Problem Set <strong>Due Thu</strong></li>
+                <li>History Essay Draft <strong>Due Fri</strong></li>
+                <li>Data Structures Lab <strong>Due Sat</strong></li>
+              </ul>
+            </article>
+
+            <article class="dash-card">
+              <h4>Study Blocks</h4>
+              <ul>
+                <li>Mon 6:00 - 7:30 PM <strong>Biology Review</strong></li>
+                <li>Tue 5:30 - 6:30 PM <strong>Essay Outline</strong></li>
+                <li>Wed 7:00 - 8:00 PM <strong>Calculus Practice</strong></li>
+              </ul>
+            </article>
+
+            <article class="dash-card alert">
+              <h4>Deadline Alerts</h4>
+              <p>Heavy Thursday detected. Workload shifted 2 sessions to Tuesday and Wednesday.</p>
+            </article>
+
+            <article class="dash-card recommendation">
+              <h4>AI Suggestion</h4>
+              <p>You focus better after 7 PM. Move CS revision to 7:15 PM and keep afternoons for short tasks.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section muted-section">
+        <div class="container reveal">
+          <h2>Why students struggle</h2>
+          <div class="problem-grid">
+            <article class="problem-item">Too many assignments at once</article>
+            <article class="problem-item">Exams pile up unexpectedly</article>
+            <article class="problem-item">Last-minute cramming hurts performance</article>
+            <article class="problem-item">Traditional calendars only track tasks</article>
+            <article class="problem-item">Stress and burnout affect grades and mental well-being</article>
+          </div>
+          <p class="highlight-line">Most students do not need more reminders. They need a smarter study system.</p>
+        </div>
+      </section>
+
+      <section class="section container">
+        <div class="split reveal">
+          <div>
+            <h2>Meet FocusPath</h2>
+            <p>
+              FocusPath is an AI-powered academic planner built for real student life. It does not just list tasks like a normal
+              calendar. It actively helps you decide what to do first and when.
+            </p>
+            <p>It automatically analyzes deadlines, assignment difficulty, exam priority, and your available study time.</p>
+            <p>
+              Then it redistributes your workload intelligently, creating a balanced study plan that keeps you on track without
+              overload.
+            </p>
+            <p class="highlight-line">Your schedule should adapt to your workload, not the other way around.</p>
+          </div>
+          <div class="illustration-card" aria-hidden="true">
+            <div class="mini-chart">
+              <span style="height: 35%"></span>
+              <span style="height: 65%"></span>
+              <span style="height: 45%"></span>
+              <span style="height: 80%"></span>
+              <span style="height: 50%"></span>
+            </div>
+            <p>Smart balancing across subjects and deadlines</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section muted-section" id="features">
+        <div class="container">
+          <h2 class="reveal">Key Features</h2>
+          <div class="feature-grid">
+            <article class="feature-card reveal">
+              <h3>AI Workload Redistribution</h3>
+              <p>Automatically spreads assignments and study sessions across days based on urgency and difficulty.</p>
+            </article>
+            <article class="feature-card reveal delay-1">
+              <h3>Smart Deadline Prioritization</h3>
+              <p>Highlights what matters most so students know exactly what to work on first.</p>
+            </article>
+            <article class="feature-card reveal delay-2">
+              <h3>Exam Preparation Planning</h3>
+              <p>Builds consistent study blocks before exams to avoid last-minute cramming.</p>
+            </article>
+            <article class="feature-card reveal">
+              <h3>Overload Prevention</h3>
+              <p>Detects heavy academic days and rebalances the schedule to reduce stress.</p>
+            </article>
+            <article class="feature-card reveal delay-1">
+              <h3>Progress Tracking</h3>
+              <p>Monitors completed tasks, upcoming deadlines, and weekly study consistency.</p>
+            </article>
+            <article class="feature-card reveal delay-2">
+              <h3>Personalized Study Recommendations</h3>
+              <p>Suggests when and how much to study based on habits and workload patterns.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container">
+        <h2 class="reveal">Why FocusPath is different</h2>
+        <div class="table-wrap reveal delay-1">
+          <table aria-label="FocusPath comparison table">
+            <thead>
+              <tr>
+                <th>Traditional Calendar / To-do App</th>
+                <th>FocusPath</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Tracks tasks manually</td>
+                <td>AI-driven planning</td>
+              </tr>
+              <tr>
+                <td>Static deadlines</td>
+                <td>Smart prioritization</td>
+              </tr>
+              <tr>
+                <td>No intelligence</td>
+                <td>Dynamic workload redistribution</td>
+              </tr>
+              <tr>
+                <td>No workload balancing</td>
+                <td>Helps avoid overload</td>
+              </tr>
+              <tr>
+                <td>Does not prevent burnout</td>
+                <td>Builds healthier study habits</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="highlight-line reveal delay-2">
+          FocusPath does not just organize your tasks. It actively helps you succeed academically.
+        </p>
+      </section>
+
+      <section class="section muted-section">
+        <div class="container">
+          <h2 class="reveal">How FocusPath helps students</h2>
+          <div class="benefits reveal delay-1">
+            <span>Reduce stress during peak academic weeks</span>
+            <span>Avoid procrastination and last-minute cramming</span>
+            <span>Improve consistency in studying</span>
+            <span>Stay ahead of deadlines</span>
+            <span>Balance workload across subjects</span>
+            <span>Improve productivity without burnout</span>
+            <span>Support better academic performance</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="how-it-works">
+        <h2 class="reveal">How FocusPath works</h2>
+        <div class="steps-grid">
+          <article class="step-card reveal">
+            <span class="step-number">1</span>
+            <h3>Add your academic tasks</h3>
+            <p>Add assignments, exams, and deadlines in one place.</p>
+          </article>
+          <article class="step-card reveal delay-1">
+            <span class="step-number">2</span>
+            <h3>AI analyzes your workload</h3>
+            <p>FocusPath evaluates urgency, difficulty, and available study time.</p>
+          </article>
+          <article class="step-card reveal delay-2">
+            <span class="step-number">3</span>
+            <h3>Get your smart study plan</h3>
+            <p>Receive an automatically updated personalized plan that keeps you balanced.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section muted-section" id="demo">
+        <div class="container">
+          <h2 class="reveal">Students are already feeling the difference</h2>
+          <div class="testimonial-grid">
+            <blockquote class="testimonial reveal">
+              "I stopped cramming the night before exams because FocusPath spread my prep across the week."
+            </blockquote>
+            <blockquote class="testimonial reveal delay-1">
+              "It feels like having a personal study coach inside my schedule."
+            </blockquote>
+            <blockquote class="testimonial reveal delay-2">
+              "Unlike my normal calendar, this actually tells me what to do and when."
+            </blockquote>
+          </div>
+          <p class="note">Demo testimonials for concept presentation.</p>
+        </div>
+      </section>
+
+      <section class="section container pricing-teaser reveal">
+        <h2>Simple student-friendly pricing</h2>
+        <p>Free plan available for core planning tools. Upgrade later for advanced AI insights and weekly performance analytics.</p>
+        <a class="btn btn-secondary" href="#waitlist">See Plans</a>
+      </section>
+
+      <section class="section muted-section faq">
+        <div class="container">
+          <h2 class="reveal">Frequently Asked Questions</h2>
+          <div class="faq-list reveal delay-1">
+            <details>
+              <summary>Is FocusPath free?</summary>
+              <p>Yes. FocusPath offers a free plan with essential AI planning features for students.</p>
+            </details>
+            <details>
+              <summary>How is FocusPath different from Google Calendar?</summary>
+              <p>
+                Calendars show events. FocusPath actively analyzes urgency, effort, and deadlines to suggest what to do first and
+                rebalance your study workload.
+              </p>
+            </details>
+            <details>
+              <summary>Does it work for exams and assignments?</summary>
+              <p>Absolutely. FocusPath is built to plan both coursework and exam prep with realistic study blocks.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container cta-section" id="waitlist">
+        <h2 class="reveal">Take control of your academic life today.</h2>
+        <p class="reveal delay-1">Start free and let FocusPath build a smarter study schedule for you.</p>
+        <div class="cta-row reveal delay-2">
+          <a class="btn btn-primary" href="#">Start Free</a>
+          <a class="btn btn-secondary" href="#demo">Request Demo</a>
+          <a class="btn btn-outline" href="#contact">Contact Us</a>
+        </div>
+
+        <form class="waitlist-form reveal delay-2" aria-label="Join waitlist form">
+          <label for="email">Join the waitlist</label>
+          <div class="input-row">
+            <input id="email" type="email" placeholder="Enter your college email" required />
+            <button class="btn btn-primary" type="submit">Join Waitlist</button>
+          </div>
+          <p class="form-note" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="container footer-grid">
+        <div>
+          <h3>FocusPath</h3>
+          <p>Built for students. Powered by AI. Designed for balance.</p>
+          <p><a href="mailto:focuspath.team@gmail.com">focuspath.team@gmail.com</a></p>
+        </div>
+
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#demo">Demo</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Follow</h4>
+          <div class="socials" aria-label="Social media links">
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="LinkedIn">IN</a>
+            <a href="#" aria-label="X">X</a>
+          </div>
+        </div>
+      </div>
+      <p class="copyright">© 2026 FocusPath. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
